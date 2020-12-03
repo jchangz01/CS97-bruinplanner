@@ -37,10 +37,10 @@ brew install mongodb-community@4.4
 brew services start mongodb-community@4.4
 ```
 ### Windows
-Download and install from https://www.mongodb.com/try/download/community.
-    Version: 4.4.2 (current)
-    Platform: Windows
-    Package: msi
+Download and install from https://www.mongodb.com/try/download/community.  
+- Version: 4.4.2 (current)  
+- Platform: Windows  
+- Package: msi
 ### WSL2
 Install the current working package og MongoDB.
 ```bash
