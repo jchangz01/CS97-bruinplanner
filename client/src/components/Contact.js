@@ -102,9 +102,9 @@ export default class Contact extends React.Component {
                                     value={this.state.firstName}
                                     name="firstName" 
                                     type="text"
-                                    className="contact-name-inputs" 
-                                    label="FirstName"
-                                    inputProps={{ style: { fontFamily: 'Nunito', color: 'black'}}}
+                                    className="contact-first-name" 
+                                    label="First Name"
+                                    inputProps={{ style: {fontFamily: 'Nunito', color: 'black'}}}
                                     margin="normal"
                                     color="primary"
                                     variant="outlined"
@@ -114,9 +114,9 @@ export default class Contact extends React.Component {
                                     value={this.state.lastName}
                                     name="lastName" 
                                     type="text"
-                                    className="contact-name-inputs" 
-                                    label="LastName"
-                                    inputProps={{ style: { fontFamily: 'Nunito', color: 'black'}}}
+                                    className="contact-last-name" 
+                                    label="Last Name"
+                                    inputProps={{ style: {fontFamily: 'Nunito', color: 'black'}}}
                                     margin="normal"
                                     color="primary"
                                     variant="outlined"
@@ -128,7 +128,7 @@ export default class Contact extends React.Component {
                                     type="email" 
                                     className="contact-inputs" 
                                     label="Email" 
-                                    inputProps={{ style: { fontFamily: 'Nunito', color: 'black'}}} 
+                                    inputProps={{ style: {fontFamily: 'Nunito', color: 'black'}}} 
                                     margin="normal"  
                                     color="primary" 
                                     variant="outlined"
@@ -140,7 +140,7 @@ export default class Contact extends React.Component {
                                     type="text" 
                                     className="contact-inputs" 
                                     label="Subject" 
-                                    inputProps={{ style: { fontFamily: 'Nunito', color: 'black'}}} 
+                                    inputProps={{ style: {fontFamily: 'Nunito', color: 'black'}}} 
                                     margin="normal"  
                                     color="primary" 
                                     variant="outlined"
@@ -154,7 +154,7 @@ export default class Contact extends React.Component {
                                     label="Message" 
                                     rows={10}
                                     multiline
-                                    inputProps={{ style: { fontFamily: 'Nunito', color: 'black'}}} 
+                                    inputProps={{ style: {fontFamily: 'Nunito', color: 'black'}}} 
                                     margin="normal" 
                                     color="primary" 
                                     variant="outlined"

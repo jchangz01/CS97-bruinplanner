@@ -24,10 +24,16 @@
 
 
 
-.contact-name-inputs {
-    width: 50%;
-  }
+.contact-first-name {
+    width: 49%;
+    float: left;
+}
+
+.contact-last-name {
+  width: 49%;
+  float: right;
+}
 
 .contact-inputs {
     width: 100%;
-  }
+}
