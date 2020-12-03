@@ -27,7 +27,7 @@ export default class About extends React.Component {
                     </div>
                 </header> 
             <div class="about-section">
-                <h2>ABOUT US</h2> 
+                <h2 id="about-h2">ABOUT US</h2> 
                 <p>Bulit by Justin Chang, Nilay Shah, Gaurav Kale and David Zhao at UCLA.</p>
                 <p>Courses data provided by <a href="http://api.ucladevx.com/"> DevX at UCLA.</a></p>
             </div>

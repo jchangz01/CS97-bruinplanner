@@ -1,19 +1,14 @@
 /*About navigation header CSS found in App.css */
-body {
-  font-family: Arial, Helvetica, sans-serif;
-  margin: 0;
-}
 
-h2 {
+
+#about-h2 {
   font-weight: bold;
   color: white;
   font-size: 32px;
   margin-bottom: 1em;
 }
 
-html {
-  box-sizing: border-box;
-}
+
 
 *, *:before, *:after {
   box-sizing: inherit;
