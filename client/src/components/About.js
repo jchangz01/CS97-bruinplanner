@@ -37,8 +37,8 @@ export default class About extends React.Component {
                 <img id="profile-pic" src={Justin} alt="Justin"/>
                 <div class="container">
                     <p>Justin Chang</p>
-                    <p>?</p>
-                    <a class="button" href="mailto:nilay.shah19@gmail.com">Contact</a>
+                    <p>jchangz01@g.ucla.edu</p>
+                    <a class="button" href="mailto:jchangz01@g.ucla.edu">Contact</a>
                 </div>
                 </div>
                 </div>
