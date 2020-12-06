@@ -47,7 +47,20 @@
             "courseID":"COM SCI 33"
         }
     ],
-    "Year 2 Fall": [],
+    "Year 2 Fall": [
+        {
+            "courseName":"Software Construction Laboratory",
+            "courseID":"COM SCI 35L"
+        },
+        {
+            "courseName":"Logic Design of Digital Systems",
+            "courseID":"COM SCI M51A"
+        },
+        {
+            "courseName":"Calculus of Several Variables",
+            "courseID":"MATH 32B"
+        }
+    ],
     "Year 2 Winter": [
         {
             "courseName":"Linear Algebra and Applications",
