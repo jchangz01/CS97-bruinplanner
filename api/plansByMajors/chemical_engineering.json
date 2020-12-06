@@ -1,8 +1,8 @@
 {
     "name": "SAMPLE PLAN",
-    "major": "Aerospace Engineering",
+    "major": "Chemical Engineering",
     "Year 1 Fall": [
-        {"courseName":"Undergraduate Seminar","courseID":"EC ENGR 1"},
+        
         {"courseName":"Chemical Structure","courseID":"CHEM 20A"},
         {"courseName":"English Composition, Rhetoric, and Language","courseID":"ENGCOMP 3"},
         {"courseName":"Differential and Integral Calculus","courseID":"MATH 31A"}
