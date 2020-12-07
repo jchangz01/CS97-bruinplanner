@@ -107,10 +107,32 @@ padding-right: 0.3vw;
         display: inline;
     }
 
+
+    #screenshot-button-container {
+        position: absolute;
+        display: inline;
+        top: 0;
+        right: 0;
+        margin-right: 2vw;
+        margin-top: 1.2vh;
+    }
+
+    #screenshot-button {
+        background-color:#44c767;
+        border-radius:0.25rem;
+        border:1px solid #18ab29;
+        display:inline-block;
+        cursor:pointer;
+        color:#ffffff;
+        font-size:1vw;
+        padding: 0.9vh 1vw;
+        width: 9vw;
+    }
+
     #planner-save-button-container {
         position: absolute;
         top: 0;
-        right: 0;
+        right: 10%;
         margin-right: 2vw;
         margin-top: 1.2vh;
     }

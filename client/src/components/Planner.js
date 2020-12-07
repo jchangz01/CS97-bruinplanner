@@ -4,7 +4,9 @@ import { DndProvider, useDrag, useDrop } from 'react-dnd'
 import { HTML5Backend } from 'react-dnd-html5-backend'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faCalendar, faSignOutAlt, faSpinner, faUser, faTrashAlt } from '@fortawesome/free-solid-svg-icons'
+import html2canvas from 'html2canvas';
 import '../css/Planner.css'
+
 
 const terms = ["Year 1 Fall", "Year 1 Winter", "Year 1 Spring", "Year 2 Fall", "Year 2 Winter", "Year 2 Spring", "Year 3 Fall", "Year 3 Winter", "Year 3 Spring", "Year 4 Fall", "Year 4 Winter", "Year 4 Spring" ]
 
@@ -212,6 +214,23 @@ class PlannerSaveButton extends React.Component {
     }
 }
 
+class ScreenShotButton extends React.Component {
+    takeScreenshot = () => {
+        html2canvas(document.querySelector("#planner-container")).then(canvas => {
+            var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+            window.location.href=image;
+        });
+    };
+
+    render() {
+        return (
+            <div id="screenshot-button-container">
+                <button id="screenshot-button" onClick={this.takeScreenshot}>Screenshot</button>
+            </div>
+        )
+    }
+}
+
 
 export default class Account extends React.Component {
     state = {
@@ -277,6 +296,8 @@ export default class Account extends React.Component {
         allCoursesCopy.push(recycledCourse)
         this.setState({ planner: plannerCopy, allCourses: allCoursesCopy })
     }
+    
+    
 
     render () {
         return (
@@ -303,8 +324,9 @@ export default class Account extends React.Component {
                         <div id="planner">
                             <div id="planner-description">
                                 <h1 id="planner-title">{this.state.planner.name}, </h1>           
-                                <p id="planner-major">{this.state.planner.major}</p>  
+                                <p id="planner-major">{this.state.planner.major}</p>
                                 <PlannerSaveButton planner={this.state.planner} plannerIndex={this.state.plannerIndex} />
+                                <ScreenShotButton  />
                             </div>
                             <div id="planner-container">
                             { terms.map ( term => (
