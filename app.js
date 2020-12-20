@@ -141,7 +141,8 @@ app.post('/create-planner', checkAuthenticated, async (req, res) => {
     newPlanner.name = req.body.name;
     newPlanner.major = req.body.major;
     console.log(newPlanner) //display the contents of the new planner created
-    db.collection('authCredentials').findOneAndUpdate({"_id": ObjectID(req.session.passport.user)},{ $addToSet: { data : newPlanner } } )
+    
+    await db.collection('authCredentials').findOneAndUpdate({"_id": ObjectID(req.session.passport.user)},{ $push: { data : newPlanner } } )
 
     const userInfo = await db.collection('authCredentials').findOne({"_id": ObjectID(req.session.passport.user)})
     return res.json( {index: [userInfo.data.length - 1]} )
