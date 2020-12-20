@@ -1,11 +1,11 @@
 import React from 'react'
-import './Reqs.css'
+// import './Reqs.css'
 
 
 
 
 
-class ComSci extends React.Component {
+export default class ComSci extends React.Component {
   render(){
     return(
       <div>
