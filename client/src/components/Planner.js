@@ -230,6 +230,22 @@ class ScreenShotButton extends React.Component {
         )
     }
 }
+class DegreeButton extends React.Component {
+    degreePage = () => {
+        html2canvas(document.querySelector("#planner-container")).then(canvas => {
+            var image = canvas.toDataURL("image/png").replace("image/png", "image/octet-stream");
+            window.location.href=image;
+        });
+    };
+
+    render() {
+        return (
+            <div id="degree-button-container">
+                <button id="degree-button" onClick={this.degreePage}>See Degree Requirements</button>
+            </div>
+        )
+    }
+}
 
 
 export default class Account extends React.Component {
@@ -327,6 +343,7 @@ export default class Account extends React.Component {
                                 <p id="planner-major">{this.state.planner.major}</p>
                                 <PlannerSaveButton planner={this.state.planner} plannerIndex={this.state.plannerIndex} />
                                 <ScreenShotButton  />
+                                <DegreeButton />
                             </div>
                             <div id="planner-container">
                             { terms.map ( term => (
@@ -371,3 +388,5 @@ export default class Account extends React.Component {
         })
     }
 }
+
+
