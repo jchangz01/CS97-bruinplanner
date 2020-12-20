@@ -6,6 +6,7 @@ import Contact from './components/Contact'
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Account from './components/Account';
+import CSDeg from './requirements/cs_reqs.html';
 import Planner from './components/Planner'
 
 function PathNotFound() {
@@ -32,6 +33,7 @@ export default function App() {
         <Route path="/sign-up" component={Signup} exact/>
         <Route path="/account/:username" component={Account} exact/>
         <Route path="/account/:username/planner/:index" component={Planner} exact/>
+        <Route path="/requirements/comsci" component={CSDeg} exact/>
         <Route path="/error" component={Error} exact/>
         <Route component={PathNotFound} />
       </Switch>
