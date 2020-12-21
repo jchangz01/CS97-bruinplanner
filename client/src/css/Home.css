@@ -1,5 +1,6 @@
 /*Home navigation header CSS found in App.css
-
+@import 
+url('https://fonts.googleapis.com/css?family=Roboto:900')
 /*Main Section*/
 #home-main-section-title {
     margin: 0 auto;
@@ -26,7 +27,7 @@
     padding: 21px 56.8px;
     border-radius: 7.5px;
     margin-top: 21px;
-    box-shadow: 0 5px 0 #003B5C;
+    box-shadow: 0 6px 0 #003B5C;
     color: white;
     background-color: #2774AE;
     border: none;
@@ -34,6 +35,13 @@
     font-size: 14.2px;
     z-index: 200;
 }
+
+.home-main-section-button:active {
+  background-color: #2a9ddb;
+  box-shadow: 0 1px #666;
+  transform: translateY(4px);
+}
+
 
 
 #home-main-section-mainimg {

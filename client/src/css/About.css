@@ -25,6 +25,10 @@
   box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
   margin: 8px;
 }
+.card: hover{
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
+}
 
 .about-section {
   padding: 50px;
@@ -43,11 +47,12 @@
   display: table;
 }
 
+
 .title {
   color: grey;
 }
 
-.button {
+.my_button {
   border: none;
   outline: 0;
   display: inline-block;
@@ -61,8 +66,10 @@
   margin-bottom: 1em;
 }
 
-.button:hover {
+.my_button:hover {
   background-color: #555;
+  -webkit-transform: scale(1.1, 1.1);
+  transform: scale(1.1, 1.1);
 }
 
 @media screen and (max-width: 650px) {

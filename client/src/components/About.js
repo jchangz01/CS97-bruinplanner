@@ -38,7 +38,7 @@ export default class About extends React.Component {
                 <div class="container">
                     <p>Justin Chang</p>
                     <p>jchangz01@g.ucla.edu</p>
-                    <a class="button" href="mailto:jchangz01@g.ucla.edu">Contact</a>
+                    <a class="my_button" href="mailto:jchangz01@g.ucla.edu">Contact</a>
                 </div>
                 </div>
                 </div>
@@ -48,7 +48,7 @@ export default class About extends React.Component {
                 <div class="container">
                     <p>Nilay Shah</p>
                     <p>nilay.shah19@gmail.com</p>
-                    <a class="button" href="mailto:nilay.shah19@gmail.com">Contact</a>
+                    <a class="my_button" href="mailto:nilay.shah19@gmail.com">Contact</a>
                 </div>
                 </div>
                 </div>
@@ -58,7 +58,7 @@ export default class About extends React.Component {
                 <div class="container">
                     <p>Gaurav Kale</p>
                     <p>gauravkale100@gmail.com</p>
-                    <a class="button" href="mailto:gauravkale100@gmail.com">Contact</a>
+                    <a class="my_button" href="mailto:gauravkale100@gmail.com">Contact</a>
                 </div>
                 </div>
                 </div>
@@ -68,7 +68,7 @@ export default class About extends React.Component {
                 <div class="container">
                     <p>David Zhao</p>
                     <p>daweiz@ucla.edu</p>
-                    <a class="button" href="mailto:daweiz@ucla.edu">Contact</a>
+                    <a class="my_button" href="mailto:daweiz@ucla.edu">Contact</a>
                     <p>  </p>
                 </div>
                 </div>
