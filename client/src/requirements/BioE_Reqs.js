@@ -10,7 +10,7 @@ export default class BioEng extends React.Component {
     return(
       <div>
 
-      <h1>Computer Science Major Requirements</h1>
+      <h1>BioEngineering Major Requirements</h1>
 
       <h2>Lower Division Requirements</h2>
       <ul>
