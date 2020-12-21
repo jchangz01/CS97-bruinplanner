@@ -9,7 +9,7 @@ git clone https://github.com/jchangz01/CS97-bruinplanner.git
 
 Create a .env file in the root directory to define the environment variables.
 ```bash
-cd bruinplanner
+cd CS97-bruinplanner
 touch .env
 ```
 Add the following to the .env file.
