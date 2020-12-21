@@ -47,6 +47,7 @@ export default function App() {
         <Route path="/requirements/Civil Engineering" component={CivilEng} exact/>
         <Route path="/requirements/Computer Science" component={ComSci} exact/>
         <Route path="/requirements/Computer Science and Engineering" component={CSEng} exact/>
+        <Route path="/requirements/Computer Engineering" component={CSEng} exact/>
         <Route path="/requirements/Electrical Engineering" component={ECEng} exact/>
         <Route path="/requirements/Materials Science and Engineering" component={MatSci} exact/>
         <Route path="/requirements/Mechanical Engineering" component={MechE} exact/>
