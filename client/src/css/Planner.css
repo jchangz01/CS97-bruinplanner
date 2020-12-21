@@ -120,11 +120,11 @@ padding-right: 0.3vw;
         position: absolute;
         display: inline;
         top: 0;
-        right: 30%;
+        right: 20%;
         margin-right: 2vw;
         margin-top: 1.2vh;
     }
-    	.degree-button {
+    	#screenshot-button {
         	background-color:#44c767;
         	border-radius:0.25rem;
         	border:1px solid #18ab29;
@@ -136,10 +136,10 @@ padding-right: 0.3vw;
         	width: 9vw;
     	}
 
-    #screenshot-button {
-        background-color:#44c767;
+    #degree-button {
+        background-color:#2774AE;
         border-radius:0.25rem;
-        border:1px solid #18ab29;
+        border:1px solid #003B5C;
         display:inline-block;
         cursor:pointer;
         color:#ffffff;
@@ -266,6 +266,7 @@ padding-right: 0.3vw;
         overflow: auto;
         flex-wrap: wrap;
     }
+
     
     .search-class-course-container {
         flex-basis: calc(100%/12);

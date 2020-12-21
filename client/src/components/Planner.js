@@ -336,7 +336,7 @@ export default class Account extends React.Component {
                                 <p id="planner-major">{this.state.planner.major}</p>
                                 <PlannerSaveButton planner={this.state.planner} plannerIndex={this.state.plannerIndex} />
                                 <ScreenShotButton  />
-                                <a href={"/requirements/" + this.state.planner.major}><button className="header-buttons blue">Requirements</button></a>
+                                <a href={"/requirements/" + this.state.planner.major}><div id="degree-button-container"> <button id="degree-button">Requirements</button></div></a>
                             </div>
                             <div id="planner-container">
                             { terms.map ( term => (
