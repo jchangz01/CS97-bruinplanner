@@ -38,7 +38,7 @@ function PopupPrompt (props) {
                     <option key="5">Computer Science</option>
                     <option key="6">Computer Science and Engineering</option>
                     <option key="7">Electrical Engineering</option>
-                    <option key="8">Materials Engineering</option>
+                    <option key="8">Materials Science and Engineering</option>
                     <option key="9">Mechanical Engineering</option>
                     <option key="10">Other</option>
                 </select>

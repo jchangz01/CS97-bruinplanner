@@ -6,7 +6,14 @@ import Contact from './components/Contact'
 import Login from './components/Login';
 import Signup from './components/Signup';
 import Account from './components/Account';
+import Aero from './requirements/Aero_Reqs.js';
+import BioEng from './requirements/BioE_Reqs.js';
+import ChemEng from './requirements/Chem_Reqs.js';
 import ComSci from './requirements/Cs_Reqs.js';
+import CSEng from './requirements/CSE_Reqs.js';
+import ECEng from './requirements/ECE_Reqs.js';
+import MatSci from './requirements/Mat_Reqs.js';
+import MechE from './requirements/MechEng.js';
 import Planner from './components/Planner'
 
 function PathNotFound() {
@@ -33,7 +40,14 @@ export default function App() {
         <Route path="/sign-up" component={Signup} exact/>
         <Route path="/account/:username" component={Account} exact/>
         <Route path="/account/:username/planner/:index" component={Planner} exact/>
-        <Route path="/requirements/Bioengineering" component={ComSci} exact/>
+        <Route path="/requirements/Aerospace Engineering" component={Aero} exact/>
+        <Route path="/requirements/Bioengineering" component={BioEng} exact/>
+        <Route path="/requirements/Chemical Engineering" component={ChemEng} exact/>
+        <Route path="/requirements/Computer Science" component={ComSci} exact/>
+        <Route path="/requirements/Computer Science and Engineering" component={CSEng} exact/>
+        <Route path="/requirements/Electrical Engineering" component={ECEng} exact/>
+        <Route path="/requirements/Materials Science and Engineering" component={MatSci} exact/>
+        <Route path="/requirements/Mechanical Engineering" component={MechE} exact/>
         <Route path="/error" component={Error} exact/>
         <Route component={PathNotFound} />
       </Switch>
