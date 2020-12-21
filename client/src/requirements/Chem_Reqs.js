@@ -5,12 +5,12 @@ import React from 'react'
 
 
 
-export default class ComSci extends React.Component {
+export default class ChemEng extends React.Component {
   render(){
     return(
       <div>
 
-      <h1>Computer Science Major Requirements</h1>
+      <h1>Chemical Engineering Major Requirements</h1>
 
       <h2>Lower Division Requirements</h2>
       <ul>
@@ -44,6 +44,3 @@ export default class ComSci extends React.Component {
       )
   }
 }
-
-
-
