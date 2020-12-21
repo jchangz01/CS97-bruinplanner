@@ -230,16 +230,6 @@ class ScreenShotButton extends React.Component {
         )
     }
 }
-// function DegreeButton {
-//     return (
-        
-//             <div id="degree-button-container">
-//                 <button id="degree-button" onClick={this.degreePage}>See Degree Requirements</button>
-//             </div>
-        
-//     );
-// }
-
 
 export default class Account extends React.Component {
     state = {
