@@ -14,21 +14,21 @@ export default class Aero extends React.Component {
 
       <h2>Lower Division Requirements</h2>
       <ul>
-        <li>COM SCI: 1, 31, 32, 33,35L, M51A or ECE M16</li>
-        <li>MATH: 31A, 31B, 32A, 32B, 33A, 33B, 61</li>
-        <li>PHYSICS: 1A, 1B, 1C, 4AL or 4BL</li>
+        <li>CHEM 20A,20B,20L</li>
+        <li>MATH: 31A, 31B, 32A, 32B, 33A</li>
+        <li>PHYSICS: 1A, 1B, 1C, 4AL,4BL</li>
+        <li>MECH ENG M20</li>
       </ul>  
 
     <h2>Upper Division Requirements</h2>
     <ul>
-      <li>CS 111, CS 118, CS 131</li>
-      <li>CS M151B or ECE M116C, CS M152A or ECE M116L</li>
-      <li>CS 180, CS 181</li>
-      <li>Capstone: CS 130 or CS 152B</li>
-      <li>5 Courses: CS 100-187</li>
-      <li>3 Courses: SCI TECH</li>
-      <li>3 Courses: HSEAS TECH BREADTH</li>
-    </ul>  
+      <li>Mech Eng 1, 101, 102, 103, 105A, 105D, 107, 150A, 157, 166A, 171A</li>
+      <li>2 Departmental Breadth Courses</li>
+      <li>4 Courses from: Aeronautics or Space Track</li>
+      <li>Capstone: MAE 157A</li>
+      <li>1 Major Course from a different Track</li>
+      <li>1 Course: MAE Elective</li>
+     </ul>  
 
     <h2>Writing and General Education Requirements</h2>
     <ul>

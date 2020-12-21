@@ -14,19 +14,20 @@ export default class MatSci extends React.Component {
 
       <h2>Lower Division Requirements</h2>
       <ul>
-        <li>COM SCI: 1, 31, 32, 33,35L, M51A or ECE M16</li>
-        <li>MATH: 31A, 31B, 32A, 32B, 33A, 33B, 61</li>
-        <li>PHYSICS: 1A, 1B, 1C, 4AL or 4BL</li>
+        <li>Chemistry and Biochemistry 20A, 20B, 20L</li>
+        <li>MATH: 31A, 31B, 32A, 32B, 33A, 33B</li>
+        <li>PHYSICS: 1A, 1B, 1C</li>
+        <li>Civil and Environmental Engineering M20</li>
       </ul>  
 
     <h2>Upper Division Requirements</h2>
     <ul>
-      <li>CS 111, CS 118, CS 131</li>
-      <li>CS M151B or ECE M116C, CS M152A or ECE M116L</li>
-      <li>CS 180, CS 181</li>
+      <li>CEE 91,108,ECE 100,</li>
+      <li>MATSCI 104,110,110L,120,130,131,131L,132,143A,150,160</li>
+      <li>Upper Division Math Course (MATH 132)</li>
       <li>Capstone: CS 130 or CS 152B</li>
-      <li>5 Courses: CS 100-187</li>
-      <li>3 Courses: SCI TECH</li>
+      <li>2 Major Field Elective Courses: MAT SCI 100-187</li>
+      <li>1 Course From MAE Elective </li>
       <li>3 Courses: HSEAS TECH BREADTH</li>
     </ul>  
 
