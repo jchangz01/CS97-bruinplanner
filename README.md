@@ -1,5 +1,5 @@
 # Bruinplanner
-An interactive app/website for UCLA students that are in the college of engineering, to help design a 4 year plan based on the available and necessary classes. For too long, the HSEAS website has been horrible at presenting information clearly, with out of date major requirements, old “prospective” 4 year planners, and files all over the place. Instead, if students had an interactive 4 year planner, where they could select their major and visually see what the required classes and their respective pre reqs were, this would save a lot of unnecessary time and pain. Our website allows students to create an account that would give them access to a 4 year planner based on major in which they could organize their classes based on requirements.
+An interactive app/website for UCLA students that are in the college of engineering, to help design a 4 year plan based on the available and necessary classes. For too long, the HSSEAS website has been horrible at presenting information clearly, with out of date major requirements, old “prospective” 4 year planners, and files all over the place. Instead, if students had an interactive 4 year planner, where they could select their major and visually see what the required classes and their respective pre reqs were, this would save a lot of unnecessary time and pain. Our website allows students to create an account that would give them access to a 4 year planner based on major in which they could organize their classes based on requirements.
 
 ## Setup 
 Navigate to your desired directory and clone the Bruinplanner repository.
@@ -41,8 +41,8 @@ Download and install from https://www.mongodb.com/try/download/community.
 - Version: 4.4.2 (current)  
 - Platform: Windows  
 - Package: msi
-### WSL2
-Install the current working package og MongoDB.
+### WSL2 (assuming you are using Ubuntu as your Linux distro)
+Install the current working package of MongoDB.
 ```bash
 sudo apt-get install mongodb
 ```
