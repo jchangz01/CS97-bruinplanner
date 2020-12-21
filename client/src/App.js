@@ -8,7 +8,8 @@ import Signup from './components/Signup';
 import Account from './components/Account';
 import Aero from './requirements/Aero_Reqs.js';
 import BioEng from './requirements/BioE_Reqs.js';
-import ChemEng from './requirements/Chem_Reqs.js';
+import ChemEng from './requirements/ChemE_Reqs.js';
+import CivilEng from './requirements/CivilE_Reqs.js';
 import ComSci from './requirements/Cs_Reqs.js';
 import CSEng from './requirements/CSE_Reqs.js';
 import ECEng from './requirements/ECE_Reqs.js';
@@ -43,6 +44,7 @@ export default function App() {
         <Route path="/requirements/Aerospace Engineering" component={Aero} exact/>
         <Route path="/requirements/Bioengineering" component={BioEng} exact/>
         <Route path="/requirements/Chemical Engineering" component={ChemEng} exact/>
+        <Route path="/requirements/Civil Engineering" component={CivilEng} exact/>
         <Route path="/requirements/Computer Science" component={ComSci} exact/>
         <Route path="/requirements/Computer Science and Engineering" component={CSEng} exact/>
         <Route path="/requirements/Electrical Engineering" component={ECEng} exact/>
